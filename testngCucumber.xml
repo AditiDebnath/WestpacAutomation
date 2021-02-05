@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Westpac Automation TestSuite">
+ <listeners>
+ 
+   <listener class-name="westpac.listeners"/>
+   <listener class-name="resources.ExtentReporterNG"/>
+   
+ </listeners>
+   
+   <test name="Information icon for Current Age and KiwiSaver Retirement Projected Balance">
+    <classes>
+      <class name="cucumberOptions.TestRunner"/>
+    </classes>
+  
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

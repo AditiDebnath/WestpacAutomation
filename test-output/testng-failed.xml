@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Westpac Automation TestSuite]" parallel="none">
+  <listeners>
+    <listener class-name="westpac.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Information icon for Current Age and KiwiSaver Retirement Projected Balance(failed)" parallel="none">
+    <classes>
+      <class name="cucumberOptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.TestRunner -->
+    </classes>
+  </test> <!-- Information icon for Current Age and KiwiSaver Retirement Projected Balance(failed) -->
+</suite> <!-- Failed suite [Westpac Automation TestSuite] -->
