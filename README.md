@@ -53,7 +53,7 @@ It also consists of &quot;ExtentReporterNG&quot; java file which contains classe
 
 Test Suite can be executed by any of the below ways:
 
-1. testng.xml - This will run all the test sequentially and browser will close on every test complete. If using Eclipse IDE, right click on testing.xml and click on Run as TestNG Suite
+1. testng.xml - This will run all the test sequentially and browser will close on every test complete. If using Eclipse IDE, right click on testng.xml and click on Run as TestNG Suite
 2. testngCucumber.xml - This will run the Cucumber/BDD framework executing the test cases covering both the Test User Story1 or Test User Story2(here named as KiwiSaverRetirementPageIcons.feature and KiwiSaverRetirementProjectedBalance.feature files). Test execution is sequential. Browser will close after each test execution. If using Eclipse IDE, right click on testngCucumber.xml and click on Run as TestNG Suite
 3. The Test Suite can also be executed using windows command prompt and then navigating to the project directory. Then use the command &quot; **mvn test**  &quot; (which uses pom.xml). Here, pom.xml is defaulted to testngCucumber.xml. It can be changed to testng.xml as per preference of framework to be used. If using Eclipse IDE, you can also right click on pom.xml and click on Run as Maven test.
 4. Create a Jenkins job, configure it providing the path for the code repository on the local machine and add build step as &quot;Invoke top-level Maven targets&quot; with Goals as &quot;test&quot; (which runs &quot;mvn test&quot;) and publish TestNG Results by default as testng-results.xml file.
