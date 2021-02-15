@@ -8,8 +8,8 @@ It is based on page object model pattern. Where each page represents a page on t
 
 The framework has been created using two approaches:
 
-1. POM with Maven, testing and then Jenkins Job created for that as CI/CD release pipeline execution
-2. BDD/ Cucumber framework integrated with Maven and testing and then, pertaining Jenkins job has been created for CI/CD pipeline execution
+1. POM with Maven, testng and then Jenkins Job created for that as CI/CD release pipeline execution
+2. BDD/ Cucumber framework integrated with Maven and testng and then, pertaining Jenkins job has been created for CI/CD pipeline execution
 
 ## **Prerequisites / Tools**
 
